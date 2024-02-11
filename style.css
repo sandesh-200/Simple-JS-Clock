@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+.watch{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 87px;
+}
+
+.datefont{
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.fw-light{
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media only screen and (max-width: 994px){
+.watch{
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 501px){
+    .watch{
+        font-size: 40px;
+    }
+    }
+
+@media only screen and (max-width: 383px){
+        .watch{
+            font-size: 30px;
+        }
+        }
+
+@media only screen and (max-width: 356px){
+            .watch{
+                font-size: 25px;
+            }
+            }
+@media only screen and (max-width: 312px){
+            .watch{
+                font-size: 20px;
+            }
+            }
+
+
+            
