@@ -6,7 +6,7 @@ const control_clock = () => {
   let m = a.getMinutes();
   let s = a.getSeconds();
   let day = a.getDate();
-  let mon = a.getMonth();
+  let mon = a.getMonth()+1;
   yearo = a.getFullYear();
   if (day < 10) {
     day = "0" + day;
@@ -22,7 +22,7 @@ const control_clock = () => {
 
 setInterval(control_clock, 1000);
 const audiop = () => {
-  var audio = new Audio("tick.mp3");
+  var audio = new Audio("tick2.mp3");
   audio.play();
 };
 
